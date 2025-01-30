@@ -1,0 +1,6 @@
+-
+  name: install ngnix using roles
+  hosts: servers
+  beocme: yes
+  role:
+    - nginx-role
